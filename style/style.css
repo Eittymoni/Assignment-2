@@ -1,0 +1,157 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.cdnfonts.com/css/miama');
+
+.inter-font {
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body{
+    background-color: black;
+  }
+  h3{
+    color: white;
+  }
+
+  .container{
+    max-width: 1060px;
+    margin: 0 auto;
+  }
+ 
+
+  /* banner section  */
+  #banner{
+padding-top:50px;
+background: linear-gradient(180180.00deg, rgb(17,17,17),rgba(119,119,119,0)100%);
+height: 750px;
+border: 2px solid white;
+
+  }
+  .navbar{
+  display: flex;
+  justify-content: space-between;
+    align-items: center;
+  }
+.navbar .nav-logo h2{
+color:rgb(230, 83, 60) ;
+font-size: 35px;
+font-weight: 800;
+font-style: italic;
+}
+.nav-menu{
+ 
+  border:1px solid rgba(255, 255, 255, 0.1) ;
+  border-radius: 39px;
+}
+.nav-link{
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+.nav-link li{
+    padding-left: 22px;
+    padding-right: 22px;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: 400;
+}
+.nav-link li:first-child{
+    padding: 8px 12px 8px 12px;
+    border-radius: 39px;
+    background-color:rgb(230, 83, 60) ; 
+}
+
+
+
+.bar{
+    display:none;
+}
+/* navbar end */
+#banner .banner-main{
+    border: 2px solid yellow;
+    padding-top: 50px;
+  display: flex;
+  align-items: center;
+ 
+}
+#banner .banner-main .banner-left{
+width: 50%;
+}
+#banner .banner-main .banner-left h1{
+color: rgb(255, 255, 255);
+font-size: 75px;
+font-weight: 900;
+line-height: 120%;
+}
+.span-mia{
+font-family: 'Miama', sans-serif;
+font-size: 200%;
+font-weight:400;                                                
+}
+#banner .banner-main .banner-left p{
+
+    color:rgba(255, 255, 255, 0.5);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+#banner .banner-main .banner-left  .btn-one{
+padding: 16px 40px 16px 40px;
+background-color: rgb(230, 83, 60);
+border-radius: 42px;
+border: none;
+color: rgb(255, 255, 255);
+font-size: 18px;
+margin-right: 15px;
+}
+#banner .banner-main .banner-left .btn-two{
+    padding: 16px 40px 16px 40px;
+    border: 1px solid rgb(255, 255, 255);
+    background-color:transparent;
+    border-radius: 42px;
+   
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+}
+#banner .banner-main .banner-right{
+width:50%;
+height: 580px;
+background: url(../images/banner.png) no-repeat center / contain;
+}
+
+
+
+
+
+
+/*  responsive */
+/* for mobile device */
+@media screen  and (max-width:576px){
+   #banner{
+    padding-left: 10px;
+    padding-right: 10px;
+   }
+    .nav-menu{
+        display: none;
+    }
+    .bar{
+        display:block;
+    }
+    .bar i{
+        color: white;
+        font-size: 20px;
+    }
+}
+
