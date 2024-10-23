@@ -507,6 +507,79 @@ box-shadow:
  
 }
 
+/* our-team section */
+
+.our-team{
+    margin-top: 100px;
+}
+.our-team .team-text{
+  text-align: center;
+}
+.our-team .team-text h2{
+    color: rgb(255, 255, 255);
+    font-size: 45px;
+    font-weight: 900;
+    line-height:
+     120%;
+}
+.our-team .team-text p{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    padding-top: 14px;
+}
+.our-team .team-main{
+   margin-top: 50px;
+   padding: 20px 20px 20px 20px;
+   background-color: rgba(255, 255, 255, 0.1);
+   border-radius: 18px;
+   display: flex;
+   justify-content: space-between;
+  flex-wrap: wrap;
+}
+.our-team .team-main .trainer1, .trainer2, .trainer3,.trainer4,.trainer5 ,.trainer6{
+   width: 32%;
+   height: 272px;
+   border-radius: 18px;
+   border-radius: 18px;
+   position: relative;
+   margin-top: 15px;
+}
+.our-team .team-main .trainer1{
+    background: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2) ),url(../images/trainer1.png) no-repeat center / cover ;
+ }
+ .our-team .team-main .trainer2{
+    background: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2) ),url(../images/trainer2.png) no-repeat center / cover ; 
+ }
+.our-team .team-main .trainer3{
+    background: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2) ),url(../images/trainer3.png) no-repeat center / cover ; 
+ }
+.our-team .team-main .trainer4{
+    background: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2) ),url(../images/trainer4.png) no-repeat center / cover ; 
+ }
+.our-team .team-main .trainer5{
+    background: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2) ),url(../images/trainer5.png) no-repeat center / cover ; 
+ }
+.our-team .team-main .trainer6{
+    background: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2) ),url(../images/trainer6.png) no-repeat center / cover ; 
+ }
+
+.our-team .team-main .trainer1 .name, .trainer2 .name, .trainer3 .name, .trainer4 .name ,.trainer5 .name, .trainer6 .name{
+position: absolute;
+left: 20px;
+bottom:35px;
+}
+.our-team .team-main .name h3{
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: 600;
+}
+.our-team .team-main  .name p{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+}
+
 
 
 
@@ -719,4 +792,25 @@ box-shadow:
 .pricing-main .pricing-card{
     width: 97%;
 }
+
+/* our team section */
+.our-team{
+    margin-top: 60px;
+}
+
+.our-team .team-text h2{
+
+    font-size: 32px; 
+}
+.our-team .team-main{
+    flex-direction: column;
+}
+.our-team .team-main .trainer1, .trainer2, .trainer3,.trainer4,.trainer5 ,.trainer6{
+width: 97%;
+}
+.trainer1,.trainer4{
+    display: none;
+}
+    
+
 }
