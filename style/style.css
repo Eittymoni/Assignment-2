@@ -21,7 +21,12 @@
   h3{
     color: white;
   }
-
+.red{
+    color: rgb(230, 83, 60);
+}
+.size{
+    font-size: 45px;
+}
   .container{
     max-width: 1060px;
     margin: 0 auto;
@@ -34,6 +39,7 @@
     color: rgb(255, 255, 255);
     font-size: 18px;
    font-weight: 600;
+   cursor: pointer;
     }
 
   /* banner section  */
@@ -65,7 +71,9 @@ font-style: italic;
     list-style: none;
     align-items: center;
 }
-.nav-link li{
+
+.nav-link li a{
+    text-decoration: none;
     padding-left: 22px;
     padding-right: 22px;
     color: rgb(255, 255, 255);
@@ -124,6 +132,7 @@ font-weight:400;
     color: rgb(255, 255, 255);
     font-size: 18px;
     padding-left: 15px;
+    cursor: pointer;
 }
 #banner .banner-main .banner-right{
     
@@ -434,8 +443,69 @@ right: 0;
     
    }
 
+/* pricing section */
+.pricing{
+    padding-top: 80px;
+}
+.pricing .pricing-top{
+    text-align: center;
+}
 
+.pricing .pricing-top h5{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px; 
+}
+.pricing .pricing-top p{
+    color: rgb(255, 255, 255);
+    font-size: 45px;
+    font-weight: 900;
+    line-height:
+     120%;
+}
 
+.pricing-main{
+    padding-top: 100px;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.pricing-main .pricing-card{
+    text-align: center;
+width: 23%;
+background-color: rgb(34, 34, 34);
+border-radius: 18px;
+padding: 20px 10px 20px 10px;
+box-shadow:
+    inset 0 -3em 3em rgb(34 34 34 / 30%),
+    0 0 0 2px white,
+    0.3em 0.3em 1em rgb(230 83 60 / 40%);
+    cursor: pointer;
+}
+.pricing-main .pricing-card h2{
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    font-weight: 500;
+    padding-bottom: 15px;
+}
+.pricing-main .pricing-card h3{
+    color: rgb(255, 255, 255);
+    font-size: 28px;
+    padding-bottom: 20px;
+   
+}
+.pricing-main .pricing-card ul{
+   list-style: none;
+ 
+}
+.pricing-main .pricing-card ul li{
+    font-size: 14px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.615);
+    padding-bottom: 20px;
+ 
+}
 
 
 
@@ -625,4 +695,28 @@ right: 0;
 
        padding-bottom: 35px;
    }
+
+   /* pricing section */
+   .pricing .pricing-top h5{
+    
+    font-size: 15px;
+    
+}
+.pricing .pricing-top p{
+   
+    font-size: 28px;
+    
+}
+.pricing-main{
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    flex-direction: column;
+    gap: 15px;
     }
+    
+.pricing-main .pricing-card{
+    width: 97%;
+}
+}
