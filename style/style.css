@@ -581,7 +581,70 @@ bottom:35px;
 }
 
 
+/* footer section */
+#footer{
+    margin-top: 80px;
+    padding: 10px 10px 10px 10px;
+    background: rgba(255, 255, 255, 0.1);
+}
 
+#footer .footer-main{
+    padding-top: 66px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#footer .footer-main .footer-logo{
+    width: 40%;
+}
+#footer .footer-main .footer-logo h1{
+    font-size: 70px;
+    font-weight: 800;
+    line-height: 120%;
+}
+#footer .footer-main .footer-logo p{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+    line-height: 24px;
+    padding-top: 20px;
+}
+#footer .footer-main .footer-mid,.footer-right{
+    width: 30%;
+   margin-left: 100px;
+ 
+}
+#footer .footer-main .footer-mid h2, .footer-right h2{
+    color: rgb(255, 255, 255);
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 120%;
+    padding-bottom: 20px;
+}
+#footer .footer-main .footer-mid ul, .footer-right ul{
+   list-style: none;
+}
+#footer .footer-main .footer-mid ul li, .footer-right ul li{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 23px;
+    font-weight: 400;
+    line-height: 120%;
+    padding-bottom: 20px;
+}
+#footer .footer-buttom{
+    margin-top: 50px;
+    text-align: center;
+}
+#footer .footer-buttom hr{
+border: 2px solid  rgba(255, 255, 255, 0.1);
+}
+#footer .footer-buttom p{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
 
 
 /*  responsive */
@@ -811,6 +874,24 @@ width: 97%;
 .trainer1,.trainer4{
     display: none;
 }
-    
+    /* footer section */
+    #footer .footer-main{
+        padding-top: 50px;
+        display: flex;
+     flex-direction: column;
+     text-align: left;
+}
 
+#footer .footer-main .footer-logo{
+    width: 100%;
+}
+
+
+#footer .footer-main .footer-mid,.footer-right{
+    width: 100%;
+    margin-left: 0;
+    padding-top: 30px;
+   
+}
+ 
 }
