@@ -298,6 +298,148 @@ right: 0;
     border-radius: 18px;
     
 }
+/* run section end */
+/* calculator section */
+.calculator{
+    margin-top: 88px;
+    margin-bottom: 88px;
+    
+}
+.calculator .calculator-top{
+    
+   text-align: center;
+    
+}
+.calculator .calculator-top h2{
+    color: rgb(255, 255, 255);
+    font-size: 45px;
+    font-weight: 900;
+    line-height: 120%;
+}
+.calculator .calculator-top p{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    padding-top: 14px;
+    padding-left: 360px;
+    padding-right: 100px;
+    text-align: left;
+    
+    
+}
+.calculator-body{
+   padding-top: 50px;
+   padding-left: 10px;
+   padding-right: 10px;
+   padding-bottom: 20px;
+   background-color: rgb(34, 34, 34);
+   
+}
+.calculator-table{
+    display: flex;
+    justify-content: center;
+}
+.calculator-table .table-chart{
+   width: 50%;
+   
+}
+.calculator-table .table-chart h3{
+    color: rgb(255, 255, 255);
+    font-size: 28px;
+    font-weight: 900;
+    line-height:
+     120%;
+     padding-bottom: 50px;
+}
+.calculator-table .table-chart table{
+    border-collapse:collapse ;
+    border:1px solid rgba(255, 255, 255, 0.1) ;
+    font-size: 14px;
+    font-weight: 400;
+    color: rgb(255, 255, 255);
+}
+.calculator-table .table-chart table thead{
+    font-size: 16px;
+    font-weight: 500;
+}
+.calculator-table .table-chart table th, td{
+    padding: 15px;
+    border:1px solid rgba(255, 255, 255, 0.1) ;
+    text-align: left;
+    
+}
+
+.calculator-table .table-calculate{
+ width: 50%;
+
+}
+.calculator-table .table-calculate h3{
+    color: rgb(255, 255, 255);
+    font-size: 28px;
+    font-weight: 900;
+    line-height:
+     120%;
+     padding-bottom: 14px;
+}
+.calculator-table .table-calculate p{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    padding-bottom: 35px;
+}
+
+.calculator-table .table-calculate form{
+   display: flex;
+ flex-wrap: wrap;
+ flex-direction: column;
+   }
+.calculator-table .table-calculate form .input-group{
+   display: flex;
+   flex-wrap: wrap;
+   gap: 10px;
+   margin-top: 10px;
+   }
+ form .input-group input, form .input-group select{
+   height: 48px;
+   width:48%;
+   border-radius: 8px;
+   background-color: rgba(255, 255, 255, 0.1); 
+   border: none;
+   font-size: 16px;
+   color: rgb(255, 255, 255);
+   padding: 12px 40px 12px 20px;
+   }
+   form .full-width{
+    width: 100%;
+   }
+ 
+ .full-width .input-group select{
+        width: 100%;
+      margin-bottom: 30px;
+    }
+    .calculator-table .table-calculate form button{
+        width: 50%;
+        
+    }
+
+   .calculator-table .table-calculate form input::placeholder, select::placeholder{
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.6);
+   }
+   .calculator-table .table-calculate form input:focus, select:focus{
+    outline: none;
+    
+   }
+
+
+
+
+
+
+
 
 /*  responsive */
 /* for mobile device */
@@ -423,4 +565,64 @@ right: 0;
         .run-section .run-right{
             width: 100%;
         }
+        /* calulator section */
+        .calculator{
+            margin-top: 50px;
+            margin-bottom: 50px;
+            
+        }
+        .calculator .calculator-top{
+            
+           text-align: left;
+           padding-right: 10px;
+           padding-left: 10px;
+            
+        }
+        .calculator .calculator-top h2{
+           
+            font-size: 32px;
+ 
+        }
+        .calculator .calculator-top p{
+           
+            padding-left: 0px;
+            padding-right: 0px;
+           
+        }
+        .calculator-body{
+            padding-top: 50px;
+            padding-left: 10px;
+            padding-right: 10px;
+            padding-bottom: 20px;
+  
+            
+         }
+         .calculator-table{
+          flex-direction: column;
+          gap: 20px;
+         }
+      
+        .calculator-table .table-chart{
+           width: 100%;
+           
+        }
+        .calculator-table .table-chart h3{
+            font-size: 16px;
+            padding-bottom: 20px;
+        }
+
+        
+.calculator-table .table-calculate{
+    width: 100%;
+   
+   }
+   .calculator-table .table-calculate h3{
+     
+       font-size: 16px;
+      
+   }
+   .calculator-table .table-calculate p{
+
+       padding-bottom: 35px;
+   }
     }
